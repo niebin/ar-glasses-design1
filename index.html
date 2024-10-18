@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设计你的 AR 眼镜</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>设计你的 AR 眼镜</h1>
+    </header>
+    <main>
+        <section id="design-area">
+            <div id="glasses-preview">
+                <!-- 这里可以添加一个图像来预览设计的眼镜 -->
+                <img src="default-glasses.png" alt="AR 眼镜预览" id="glasses-image">
+            </div>
+            <div id="options">
+                <h2>选择颜色</h2>
+                <select id="color-picker">
+                    <option value="black">黑色</option>
+                    <option value="white">白色</option>
+                    <option value="blue">蓝色</option>
+                    <option value="red">红色</option>
+                </select>
+                <h2>选择镜片类型</h2>
+                <select id="lens-type">
+                    <option value="normal">普通镜片</option>
+                    <option value="polarized">偏光镜片</option>
+                    <option value="photochromic">变色镜片</option>
+                </select>
+            </div>
+        </section>
+        <button id="save-design">保存设计</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 AR 眼镜设计工具</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
