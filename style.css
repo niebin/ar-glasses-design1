@@ -2,18 +2,24 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+    padding: 20px;
 }
 
 .container {
-    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .glasses-container {
     margin: 20px;
 }
 
-#default-glasses {
-    width: 300px; /* 根据需要调整图像大小 */
+#glasses-image {
+    width: 100%; /* 自适应容器宽度 */
     height: auto;
-    background-color: transparent; /* 初始背景透明 */
+    background-color: transparent;
+}
+
+.controls {
+    margin-top: 20px;
 }
