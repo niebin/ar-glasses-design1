@@ -1,9 +1,12 @@
-document.getElementById('color-picker').addEventListener('change', function() {
-    const color = this.value;
-    const glassesImage = document.getElementById('glasses-image');
-    glassesImage.style.borderColor = color; // 改变预览眼镜的边框颜色
-});
+const defaultGlasses = document.getElementById('default-glasses');
 
-document.getElementById('save-design').addEventListener('click', function() {
-    alert('设计已保存！');
+// 颜色选择器的事件监听
+document.getElementById('colorPicker').addEventListener('input', function (e) {
+    const color = e.target.value;
+    
+    // 更新眼镜的样式
+    defaultGlasses.style.backgroundColor = color; // 修改背景颜色
+    
+    // 如果需要在这里更改图像，请使用以下代码
+    // defaultGlasses.src = 'your-image-path-based-on-color.png';
 });
