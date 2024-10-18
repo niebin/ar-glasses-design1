@@ -1,42 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-}
-
-header {
+    background-color: #f0f0f0;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-#design-area {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.container {
+    margin-top: 50px;
 }
 
-#glasses-preview {
-    flex: 1;
-    padding: 20px;
+.glasses-container {
+    margin: 20px;
 }
 
-#options {
-    flex: 1;
-    padding: 20px;
-}
-
-button {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
+#default-glasses {
+    width: 300px; /* 根据需要调整图像大小 */
+    height: auto;
+    background-color: transparent; /* 初始背景透明 */
 }
